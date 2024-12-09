@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Quick Space</h1>
+        <p>Your shared workspace for productivity and focus</p>
+    </header>    
+
+    <main>
+        <!-- Loader -->
+        <div id="loader" class="hidden">
+            <div class="spinner"></div>
+            <p>Loading video...</p>
+        </div>
+    
+        <!-- Video Player Section -->
+        <section id="video-player">
+            <h2 id="current-title">Loading...</h2>
+            <iframe id="main-video" src="" frameborder="0" allowfullscreen></iframe>
+        </section>
+    
+        <!-- Courses Section -->
+        <section id="course-container">
+            <!-- Courses will be loaded here dynamically -->
+        </section>
+        
+        <!-- Image Preview Section -->
+        <section id="image-slideshow">
+            <h2 style="text-align: center;">Program Preview</h2>
+            <div id="image-container">
+                <div class="image" id="image"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Quick Space. All rights reserved.</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Width: 888px
+Height: 500px 
+-->

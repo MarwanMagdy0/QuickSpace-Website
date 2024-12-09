@@ -1,0 +1,32 @@
+[
+    {
+        "title": "For Admin User",
+        "videos": [
+            {
+                "name": "Video 1: Getting Started",
+                "link": "https://drive.google.com/file/d/1ur0VIB2PPjHvd0YXb0E5ISG7l8NaEoCG/view"
+            },
+            {
+                "name": "Video 2: Basics of Variables",
+                "link": "https://drive.google.com/file/d/1YKaGAt_aapi-1KwLXE3W7-GSMcxudOoA/view"
+            }
+        ]
+    },
+    {
+        "title": "For Nromal User",
+        "videos": [
+            {
+                "name": "Video 1: Object-Oriented Programming",
+                "link": "https://drive.google.com/file/d/1qrYPcyzq2sIdUoJ_4Xr11YuOen-1YkKo/view"
+            },
+            {
+                "name": "Video 2: Asynchronous Programming",
+                "link": "https://drive.google.com/file/d/1qrYPcyzq2sIdUoJ_4Xr11YuOen-1YkKo/view"
+            },
+            {
+                "name": "Video 3: What Programming",
+                "link": "https://drive.google.com/file/d/1qrYPcyzq2sIdUoJ_4Xr11YuOen-1YkKo/view"
+            }
+        ]
+    }
+]
