@@ -1,0 +1,20 @@
+{
+  "name": "quickspace-api",
+  "version": "1.0.0",
+  "description": "backend for mac address verification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "netlify deploy --prod"
+  },
+  "author": "Marwan",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.40.0",
+    "express": "^4.17.1",
+    "moment-timezone": "^0.5.47",
+    "netlify-cli": "^18.1.0",
+    "netlify-lambda": "^0.4.0",
+    "serverless-http": "^2.7.0"
+  }
+}
