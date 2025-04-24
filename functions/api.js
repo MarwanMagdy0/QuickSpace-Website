@@ -6,10 +6,8 @@ const moment = require('moment-timezone'); // Import moment-timezone
 
 // Fixed JSON with MAC addresses and subscription end times
 const subscriptions = {
-    "AA:BB:CC:DD:EE:FF": { client_name: "Arabesque", end_time: "2025-12-31T23:59:59Z" },
-    "11:22:33:44:55:66": { client_name: "Atique",end_time: "2025-06-30T23:59:59Z" },
-    "88:22:33:44:55:66": { client_name: "Layla",end_time: "2025-02-17T23:59:59Z" },
-    "77:88:99:AA:BB:CC": { client_name: "wow",end_time: "2026-01-15T23:59:59Z" }
+    "84-A9-3E-5D-7C-83": { client_name: "Marwan", end_time: "2035-12-31T23:59:59Z" },
+    "88:22:33:44:55:66": { client_name: "Layla",end_time: "2025-06-01T23:59:59Z" },
 };
 
 let accessLogs = [];
